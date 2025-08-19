@@ -1,0 +1,5 @@
+item1 = input("Digite o valor do item 1: ")
+item2 = input("Digite o valor do item 2: ")
+item3 = input("Digite o valor do item 3: ")
+total = float(item1) + float(item2) + float(item3)
+print(f"O total da compra é: R$ {total:.2f}")

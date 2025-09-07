@@ -1,0 +1,6 @@
+frase = input("Digite uma frase: ")
+substituir = input("Digite o caractere a ser substituído: ")
+novo = input("Digite o novo caractere: ")
+nova_frase = frase.replace(substituir, novo)
+print("Frase original:", frase)
+print("Frase modificada:", nova_frase)
